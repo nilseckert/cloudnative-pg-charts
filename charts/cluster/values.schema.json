@@ -929,6 +929,10 @@
                     "type": "string"
                 }
             }
-        }
+        },
+        "extraObjects": {
+          "type": "array",
+          "description": "Extra Kubernetes objects rendered by the chart"
     }
+  }
 }

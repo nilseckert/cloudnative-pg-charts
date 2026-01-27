@@ -651,3 +651,11 @@ poolers: []
   #   # -- Custom PgBouncer deployment template.
   #   # Use to override image, specify resources, etc.
   #   template: {}
+
+extraObjects: []
+  #  - apiVersion: onepassword.com/v1
+  #    kind: OnePasswordItem
+  #    metadata:
+  #      name: backup-creds
+  #    spec:
+#      itemPath: "vaults/Infrastructure/items/backup-creds"
